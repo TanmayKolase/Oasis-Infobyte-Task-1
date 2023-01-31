@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto+Condensed&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: silver;
+    background-image: url("contact1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+
+}
+#heading:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.box
+{
+    height: 65vh;
+    width: 30vw;
+    background-color: silver;
+    border: 2px solid white;
+    position: relative;
+    top: 10vh;
+    left: 3vw;
+    background-image: url("contact1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box h3{
+    color: white;
+    text-align: center;
+    
+}
+#mail
+{
+    margin-top: 15px;
+}
+#phone
+{
+    margin-top: 1px;
+}
+input{
+    position: relative;
+    top: 7vh;
+    left: 7vw;
+    margin-bottom: 18px;
+    background-color:#81898f;
+    border: 2px solid white;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#name{
+    width: 16vw;
+    height: 4vh;
+
+}
+#email{
+    width: 16vw;
+    height: 4vh;
+    
+}
+#msg{
+    width: 16vw;
+    height: 12vh;
+    
+}
+#submit
+{
+    padding: 5px;
+    position: relative;
+    top: 12vh;
+    left: 11vw;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 3px;
+    background-color: #EEEEEE;
+    border: 2px solid black;
+    font-family:cursive;
+}
